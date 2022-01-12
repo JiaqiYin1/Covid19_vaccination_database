@@ -28,20 +28,20 @@ Part 3 – Queries
 Based on the Demo, we will implement the following functionality using Java and SQL with necessary GUI interfaces.
 Trivial Queries:
 
-1. List all information of people who got vaccines from the input hospital. --  choose ‘where’
+1. List all information of people who got vaccines from the input hospital. --  used ‘where’
 
-2. List all information of countries ordered by country abbreviation desc. -- choose ‘order by’
+2. List all information of countries ordered by country abbreviation desc. -- used ‘order by’
 
-3. List all vaccine types and their average protection rate. -- choose ‘ave()’ and ‘group by’
+3. List all vaccine types and their average protection rate. -- used ‘ave()’ and ‘group by’
 
 Non-trivial Queries:
 
-1. List all countries and their population. -- choose sum(), join, group by, and order by
+1. List all countries and their population. -- used sum(), join, group by, and order by
 
-2. List all hospitals and the information of vaccines that they are using. -- joined 3 tables, and nested queries were used
+2. List all hospitals and the information of vaccines that they are using. -- used join 3 tables, and nested queries were used
 
-3. List all states whose number of vaccinated people > 150,000. -- choose sum(), join, group by, and having clause
+3. List all states whose number of vaccinated people > 150,000. -- used sum(), join, group by, and having clause
 
 4. List all states whose population is greater than the average population in its country, its country, and its population. -- included correlated nested query in this one
 
-5. List all information of people whose age is greater than the average age of vaccinated people in the same hospital. -- choose join and also included correlated nested query in this one
+5. List all information of people whose age is greater than the average age of vaccinated people in the same hospital. -- used join and also included correlated nested query in this one
