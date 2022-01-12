@@ -10,7 +10,10 @@ List of strong entities:
 1. vaccine
 
 List of weak entities:
-4. country 3. state 4. hospital 5. people
+1. country
+2. state 
+3. hospital
+4. people
 
 We will implement the following functionality using Java and SQL with necessary GUI interfaces.
 1. Insert/read/delete/update country table.
