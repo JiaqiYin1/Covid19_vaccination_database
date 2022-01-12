@@ -4,12 +4,13 @@ Description:
 Most countries in the world are vaccinating against COVID-19. These countries have unique names, country abbreviations, and the vaccine that they are using. Each vaccine has a name, a type (inactivated or mRNA vaccine...), R&D companies, protection rates. Countries are divided into many states/provinces. Each state has its name, the country where the state is located, and a different population. In the state, there are a lot of hospitals performing the tasks. Each hospital has its own name, the state where it is located, the city where the hospital is located, and vaccinated people. People who go to be vaccinated will have a unique number, and the hospital that she/he went to, ID, name, age, date of birth.
 
 
-Part 2 – CRUD (Create, read, update, and delete) 
+Part 2 – CRUD (Create, read, update, and delete)
+
 List of strong entities:
 1. vaccine
 
 List of weak entities:
-2. country 3. state 4. hospital 5. people
+4. country 3. state 4. hospital 5. people
 
 We will implement the following functionality using Java and SQL with necessary GUI interfaces.
 1. Insert/read/delete/update country table.
