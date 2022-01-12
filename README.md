@@ -1,5 +1,6 @@
 # Covid19_vaccination_database
 Database: world_covid19_vaccination
+
 Description:
 Most countries in the world are vaccinating against COVID-19. These countries have unique names, country abbreviations, and the vaccine that they are using. Each vaccine has a name, a type (inactivated or mRNA vaccine...), R&D companies, protection rates. Countries are divided into many states/provinces. Each state has its name, the country where the state is located, and a different population. In the state, there are a lot of hospitals performing the tasks. Each hospital has its own name, the state where it is located, the city where the hospital is located, and vaccinated people. People who go to be vaccinated will have a unique number, and the hospital that she/he went to, ID, name, age, date of birth.
 
@@ -28,7 +29,7 @@ Based on the Demo, we will implement the following functionality using Java and 
 Trivial Queries:
 
 1. List all information of people who got vaccines from the input hospital.
- We used ‘where’
+                        We used ‘where’
 
 2. List all information of countries ordered by country abbreviation desc.
  We used ‘order by’
